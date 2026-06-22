@@ -1,0 +1,19 @@
+
+version: "3.8"
+
+services:
+  ml-api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models
+    environment:
+      - MODEL_PATH=models/random_forest_v1.pkl
+    restart: always
+
+  # Service de monitoring (optionnel)
+  prometheus:
+    image: prom/prometheus
+    ports:
+      - "9090:9090"

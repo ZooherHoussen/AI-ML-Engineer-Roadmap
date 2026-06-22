@@ -1,0 +1,10 @@
+{
+  "model_name": "RandomForest",
+  "version": "1.0",
+  "date_trained": "2026-06-20 09:54",
+  "accuracy": 0.88,
+  "n_estimators": 100,
+  "n_features": 10,
+  "n_samples_train": 800,
+  "n_samples_test": 200
+}

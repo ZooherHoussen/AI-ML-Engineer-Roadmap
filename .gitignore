@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Environnements
+.env
+.venv
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data volumineuse
+*.pkl
+*.pt
+*.pth
+data/
+fine_tuned_model/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Docker
+*.log
+
+# Mac
+.DS_Store
